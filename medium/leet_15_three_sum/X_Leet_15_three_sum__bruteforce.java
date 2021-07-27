@@ -8,7 +8,7 @@ import java.util.List;
 //https://leetcode.com/problems/3sum/
 //O(N^3) - fail (Time Limit Exceeded)
 
-public class X_Leet_15_three_sum_bruteforce {
+public class X_Leet_15_three_sum__bruteforce {
     public List<List<Integer>> threeSum(int[] nums) {
     	List<List<Integer>> list = new ArrayList<>();
     	HashSet<Long> hashSet = new HashSet<>();
@@ -32,7 +32,7 @@ public class X_Leet_15_three_sum_bruteforce {
     }
     
     public static void main(String args[]) {
-    	X_Leet_15_three_sum_bruteforce inst = new X_Leet_15_three_sum_bruteforce();
+    	X_Leet_15_three_sum__bruteforce inst = new X_Leet_15_three_sum__bruteforce();
     	List<List<Integer>> res = inst.threeSum(new int[] {-1,0,1,2,-1,-4});
 //    	List<List<Integer>> res = inst.threeSum(new int[] {});
 //    	List<List<Integer>> res = inst.threeSum(new int[] {0});

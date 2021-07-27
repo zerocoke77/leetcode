@@ -6,7 +6,7 @@ import java.util.Comparator;
 //	https://leetcode.com/problems/two-sum/
 //	O(NlogN)
 
-public class Leet_1_two_sum_lowerbound {
+public class Leet_1_two_sum__lowerbound {
     public static Node[] nodes;
 	public class Node {
 		int value, order;
@@ -60,7 +60,7 @@ public class Leet_1_two_sum_lowerbound {
 //    }
     
     public static void main(String args[]) {
-    	Leet_1_two_sum_lowerbound inst = new Leet_1_two_sum_lowerbound();
+    	Leet_1_two_sum__lowerbound inst = new Leet_1_two_sum__lowerbound();
     	int []res = inst.twoSum(new int[]{2,7,11,15}, 9);
 //    	int []res = inst.twoSum(new int[]{3,2,4}, 6);
 //    	int []res = inst.twoSum(new int[]{3,3}, 6);

@@ -9,7 +9,7 @@ import java.util.List;
 //	https://leetcode.com/problems/3sum/
 //	O(N^2logN)
 
-public class Leet_15_three_sum_lowerbound {
+public class Leet_15_three_sum__lowerbound {
 	public static int[] gNums;
     public List<List<Integer>> threeSum(int[] nums) {
     	gNums = nums;
@@ -53,7 +53,7 @@ public class Leet_15_three_sum_lowerbound {
     }
     
     public static void main(String args[]) {
-    	Leet_15_three_sum_lowerbound inst = new Leet_15_three_sum_lowerbound();
+    	Leet_15_three_sum__lowerbound inst = new Leet_15_three_sum__lowerbound();
     	List<List<Integer>> res = inst.threeSum(new int[] {-1,0,1,2,-1,-4});
 //    	List<List<Integer>> res = inst.threeSum(new int[] {});
 //    	List<List<Integer>> res = inst.threeSum(new int[] {0});

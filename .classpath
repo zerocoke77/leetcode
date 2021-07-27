@@ -3,6 +3,10 @@
 	<classpathentry kind="src" path="easy"/>
 	<classpathentry kind="src" path="medium"/>
 	<classpathentry kind="src" path="hard"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

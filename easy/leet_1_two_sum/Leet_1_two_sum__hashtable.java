@@ -5,7 +5,7 @@ import java.util.HashMap;
 //	https://leetcode.com/problems/two-sum/
 //	O(N)
 
-public class Leet_1_two_sum_hashtable {
+public class Leet_1_two_sum__hashtable {
     public int[] twoSum(int[] nums, int target) {
     	HashMap<Integer, Integer> hashMap = new HashMap<>();
     	int leng = nums.length;
@@ -21,7 +21,7 @@ public class Leet_1_two_sum_hashtable {
     }
     
     public static void main(String args[]) {
-    	Leet_1_two_sum_hashtable inst = new Leet_1_two_sum_hashtable();
+    	Leet_1_two_sum__hashtable inst = new Leet_1_two_sum__hashtable();
     	int []res = inst.twoSum(new int[]{2,7,11,15}, 9);
 //    	int []res = inst.twoSum(new int[]{3,2,4}, 6);
 //    	int []res = inst.twoSum(new int[]{3,3}, 6);
