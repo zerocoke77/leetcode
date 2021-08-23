@@ -2,7 +2,6 @@ package leet_15_three_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
@@ -14,18 +13,10 @@ public class Leet_15_three_sum__lowerbound {
     public List<List<Integer>> threeSum(int[] nums) {
     	gNums = nums;
     	List<List<Integer>> result = new ArrayList <>();
-    	HashMap<Integer, Integer> hashMap = new HashMap <>();
     	HashSet<String> hashSet = new HashSet<>();
     	
     	Arrays.sort(nums);
     	int leng = nums.length;
-    	for(int i=0; i<leng; ++i) {
-    		if(hashMap.containsKey(nums[i])) {
-    			hashMap.put(nums[i], hashMap.get(nums[i]) + 1);
-    		} else {
-    			hashMap.put(nums[i], 1);	
-    		}
-    	}
     	
     	for(int i=0; i<leng - 2; ++i) {
     		for(int j=i+1; j<leng - 1; ++j) {
