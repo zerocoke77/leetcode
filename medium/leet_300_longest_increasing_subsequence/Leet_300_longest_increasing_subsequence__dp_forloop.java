@@ -1,5 +1,12 @@
 package leet_300_longest_increasing_subsequence;
 
+//https://aaronice.gitbook.io/lintcode/dynamic_programming/longest-increasing-subsequence
+//https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O%28nlogn%29-time-with-explanation
+
+//Brute-Force (TLE) - recursively search, O(2^n) time
+//Dynamic Programming - O(n^2) time, O(n) space
+//Dynamic Programming with Binary Search - O(nlogn) time, O(n) space
+
 public class Leet_300_longest_increasing_subsequence__dp_forloop {
 	public int []dp;
 	public int lengthOfLIS(int[] nums) {
